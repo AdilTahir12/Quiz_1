@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/picture12"
+    >
+
+
+
+        <ImageView
+            android:id="@+id/TV_new"
+            android:layout_width="234dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:src="@drawable/alfa" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/email"
+        android:hint="Email Address"
+        android:textSize="25dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/pass"
+        android:hint="Password"
+        android:textSize="25dp"
+        />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="30sp"
+        android:gravity="center"
+        android:text="Forget Password"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        />
+
+
+
+    <Button
+        android:id="@+id/btn_sign"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/purple_500"
+        android:text="LOG IN"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="Not Using Alfa?"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="Register Now!?"
+        android:textColor="@color/red"
+        android:textSize="30dp"
+
+        />
+
+
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
